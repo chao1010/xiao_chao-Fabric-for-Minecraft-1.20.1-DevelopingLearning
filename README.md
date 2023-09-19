@@ -1,5 +1,5 @@
 # xiao_chao-Fabric-for-Minecraft-1.20.1-DevelopingLearning
-这是用来学习的Fabric for Minecraft 1.20.1 Mod 开发模组，相关教程请在B站搜索：玩家小超。
+这是用来学习Fabric for Minecraft 1.20.1 Mod 开发的模组，相关教程请在B站搜索：玩家小超。
 
 Fabric for Minecraft Mod 1.20.1开发（一）准备！？：准备？！：https://www.bilibili.com/read/cv26485117
 
