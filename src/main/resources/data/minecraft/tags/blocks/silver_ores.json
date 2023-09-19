@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "template-mod:deepslate_silver_ore",
+    "template-mod:silver_ore_block"
+  ]
+}

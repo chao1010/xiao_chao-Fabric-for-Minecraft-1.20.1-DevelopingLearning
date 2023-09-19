@@ -1,0 +1,6 @@
+// 1.20.1	2023-09-18T11:27:51.3396893	Template Mod/template-mod
+ac135f40e108ba6b0f214947da063808b04bf6a3 data\template-mod\worldgen\configured_feature\ore_silver.json
+5b923cff632d797b4278edae88c91a9941f677d5 data\template-mod\worldgen\placed_feature\ore_silver_middle.json
+11041c5b46b6c33fe04aa5b82192955a005688db data\template-mod\worldgen\placed_feature\ore_silver_upper.json
+88dbfbc267766052edc3772f9e16770f366eb400 data\template-mod\worldgen\configured_feature\ore_silver_buried.json
+ff73efe81de7ef4db9c1cb9d51620a342f39524b data\template-mod\worldgen\placed_feature\ore_silver_small.json
