@@ -15,4 +15,4 @@ Fabric for Minecraft Mod 1.20.1开发（六）添加新工具！？：https://ww
 
 Fabric for Minecraft Mod 1.20.1开发（七）新矿物生成①！？：https://www.bilibili.com/read/cv26579198
 
-Fabric for Minecraft Mod 1.20.1开发（八）新矿物生成②！？：
+Fabric for Minecraft Mod 1.20.1开发（八）新矿物生成②！？：https://www.bilibili.com/read/cv26586289
