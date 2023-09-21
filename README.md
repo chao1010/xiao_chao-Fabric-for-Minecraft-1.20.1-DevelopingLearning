@@ -17,4 +17,4 @@ Fabric for Minecraft Mod 1.20.1开发（七）新矿物生成①！？：https:/
 
 Fabric for Minecraft Mod 1.20.1开发（八）新矿物生成②！？：https://www.bilibili.com/read/cv26586289
 
-Fabric for Minecraft Mod 1.20.1开发（九）添加新食物！？:https://www.bilibili.com/read/cv26659002
+Fabric for Minecraft Mod 1.20.1开发（九）添加新食物！？: https://www.bilibili.com/read/cv26659002
