@@ -26,6 +26,7 @@ public class ModItemGroup {
                         entries.add(ModItems.SILVER_AXE);
                         entries.add(ModItems.SILVER_SHOVEL);
                         entries.add(ModItems.SILVER_HOE);
+                        entries.add(ModItems.APPLE_SILVER);
 //                        entries.add(ModItems.SILVER_SPEAR);
                     }).build());
 

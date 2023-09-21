@@ -6,6 +6,7 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
     //加入银锭与粗银
@@ -19,6 +20,9 @@ public class ModItems {
     public static final Item SILVER_HOE = registerItem("silver_hoe", new HoeItem(ModToolMaterials.SLIVER, 0, -3.0F, new FabricItemSettings()));
     //加入银矛
     public static final Item SILVER_SPEAR = registerItem("silver_spear", new TridentItem((new FabricItemSettings()).maxDamage(250)));
+
+    //加入银苹果
+    public static final Item APPLE_SILVER = registerItem("apple_silver",new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFood.SILVER_APPLE)));
     // 注册
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ExampleMod.MOD_ID, name), item);
