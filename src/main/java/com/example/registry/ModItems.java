@@ -2,13 +2,15 @@ package com.example.registry;
 
 import com.example.ExampleMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.impl.content.registry.FuelRegistryImpl;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
-public class ModItems {
+public class ModItems{
     //加入银锭与粗银
     public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new FabricItemSettings()));
@@ -23,6 +25,10 @@ public class ModItems {
 
     //加入银苹果
     public static final Item APPLE_SILVER = registerItem("apple_silver",new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFood.SILVER_APPLE)));
+    //加入煤球
+    public static final Item COAL_BALL = registerItem("coal_ball",new Item(new FabricItemSettings()));
+
+
     // 注册
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ExampleMod.MOD_ID, name), item);

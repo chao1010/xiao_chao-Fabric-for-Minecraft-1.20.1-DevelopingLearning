@@ -5,6 +5,7 @@ import com.example.registry.ModItemGroup;
 import com.example.registry.ModItems;
 import com.example.registry.ModOreGen;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
@@ -43,5 +44,6 @@ public class ExampleMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModOreGen.generateOres();
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BALL,14400);//9个煤炭块
 	}
 }

@@ -30,6 +30,14 @@ public class ModItemGroup {
 //                        entries.add(ModItems.SILVER_SPEAR);
                     }).build());
 
+    public static final ItemGroup MODOTHER_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(ExampleMod.MOD_ID, "modother"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modother"))
+                    .icon(() -> new ItemStack(ModItems.COAL_BALL)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.COAL_BALL);
+
+                    }).build());
+
     public static void registerModItemGroup(){
         ExampleMod.LOGGER.debug("Registering mod item group for"+ ExampleMod.MOD_ID);
     }
