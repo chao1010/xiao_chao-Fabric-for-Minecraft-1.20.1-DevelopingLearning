@@ -2,8 +2,6 @@ package com.example.registry;
 
 import com.example.ExampleMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.fabricmc.fabric.impl.content.registry.FuelRegistryImpl;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -21,7 +19,7 @@ public class ModItems{
     public static final Item SILVER_AXE = registerItem("silver_axe", new AxeItem(ModToolMaterials.SLIVER, 6.0F, -3.0F, new FabricItemSettings()));
     public static final Item SILVER_HOE = registerItem("silver_hoe", new HoeItem(ModToolMaterials.SLIVER, 0, -3.0F, new FabricItemSettings()));
     //加入银矛
-    public static final Item SILVER_SPEAR = registerItem("silver_spear", new TridentItem((new FabricItemSettings()).maxDamage(250)));
+    public static final Item SILVER_SPEAR = registerItem("silver_spear", new SpearItem(ModToolMaterials.SLIVER, 6, -3.4F, new FabricItemSettings()));
 
     //加入银苹果
     public static final Item APPLE_SILVER = registerItem("apple_silver",new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFood.SILVER_APPLE)));

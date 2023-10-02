@@ -22,12 +22,12 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SILVER_BLOCK);
                         entries.add(ModBlocks.RAW_SILVER_BLOCK);
                         entries.add(ModItems.SILVER_SWORD);
+                        entries.add(ModItems.SILVER_SPEAR);
                         entries.add(ModItems.SILVER_PICKAXE);
                         entries.add(ModItems.SILVER_AXE);
                         entries.add(ModItems.SILVER_SHOVEL);
                         entries.add(ModItems.SILVER_HOE);
                         entries.add(ModItems.APPLE_SILVER);
-//                        entries.add(ModItems.SILVER_SPEAR);
                     }).build());
 
     public static final ItemGroup MODOTHER_GROUP = Registry.register(Registries.ITEM_GROUP,

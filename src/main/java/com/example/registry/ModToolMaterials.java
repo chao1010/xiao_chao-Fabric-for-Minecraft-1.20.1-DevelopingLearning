@@ -4,6 +4,7 @@ package com.example.registry;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Lazy;
+
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
