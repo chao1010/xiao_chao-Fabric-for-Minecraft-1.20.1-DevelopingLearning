@@ -21,8 +21,15 @@ public class ModItems{
     //加入银矛
     public static final Item SILVER_SPEAR = registerItem("silver_spear", new SpearItem(ModToolMaterials.SLIVER, 6, -3.4F, new FabricItemSettings()));
 
+    //加入银盔甲:鞋子、裤子、胸甲、头盔
+    public static final Item SILVER_BOOTS = registerItem("silver_boots", new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item SILVER_LEGGINGS = registerItem("silver_leggings", new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SILVER_CHESTPLATE = registerItem("silver_chestplate", new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SILVER_HELMET = registerItem("silver_helmet", new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
     //加入银苹果
     public static final Item APPLE_SILVER = registerItem("apple_silver",new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFood.SILVER_APPLE)));
+
     //加入煤球
     public static final Item COAL_BALL = registerItem("coal_ball",new Item(new FabricItemSettings()));
 

@@ -27,6 +27,10 @@ public class ModItemGroup {
                         entries.add(ModItems.SILVER_AXE);
                         entries.add(ModItems.SILVER_SHOVEL);
                         entries.add(ModItems.SILVER_HOE);
+                        entries.add(ModItems.SILVER_HELMET);
+                        entries.add(ModItems.SILVER_CHESTPLATE);
+                        entries.add(ModItems.SILVER_LEGGINGS);
+                        entries.add(ModItems.SILVER_BOOTS);
                         entries.add(ModItems.APPLE_SILVER);
                     }).build());
 

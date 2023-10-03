@@ -12,6 +12,10 @@
   "item.template-mod.silver_hoe": "银锄",
   "item.template-mod.silver_spear": "银矛",
   "item.template-mod.apple_silver": "银苹果",
+  "item.template-mod.silver_helmet": "银头盔",
+  "item.template-mod.silver_chestplate": "银胸甲",
+  "item.template-mod.silver_leggings": "银裤子",
+  "item.template-mod.silver_boots": "银鞋子",
   "item.template-mod.coal_ball": "煤球",
   "itemgroup.silver": "银",
   "itemgroup.modother": "其它附加物"
