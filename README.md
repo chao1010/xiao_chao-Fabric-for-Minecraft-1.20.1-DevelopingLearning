@@ -26,3 +26,5 @@ Fabric for Minecraft Mod 1.20.1开发（十一）添加新的武器类型！？:
 Fabric for Minecraft Mod 1.20.1开发（十二）添加新盔甲？！: https://www.bilibili.com/read/cv26855107
 
 Fabric for Minecraft Mod 1.20.1开发（十三）为新盔甲添加纹饰！？: https://www.bilibili.com/read/cv26869500
+
+Fabric for Minecraft Mod 1.20.1开发（十四）添加新附魔！？: https://www.bilibili.com/read/cv26884699

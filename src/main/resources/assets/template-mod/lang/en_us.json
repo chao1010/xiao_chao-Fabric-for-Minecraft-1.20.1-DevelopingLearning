@@ -18,6 +18,7 @@
   "item.template-mod.silver_boots": "银鞋子",
   "item.template-mod.coal_ball": "煤球",
   "trim_material.template-mod.silver": "银质",
+  "enchantment.template-mod.poisoning": "淬毒",
   "itemgroup.silver": "银",
   "itemgroup.modother": "其它附加物"
 }
