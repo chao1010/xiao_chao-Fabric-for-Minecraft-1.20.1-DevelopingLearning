@@ -1,12 +1,15 @@
 package com.example.registry;
 
 import com.example.ExampleMod;
+import com.example.fluid.ModFluids;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
+
+import static net.minecraft.item.Items.BUCKET;
 
 public class ModItems{
     //加入银锭与粗银
@@ -33,6 +36,8 @@ public class ModItems{
     //加入煤球
     public static final Item COAL_BALL = registerItem("coal_ball",new Item(new FabricItemSettings()));
 
+    //加入石油桶
+    public static final Item PETROLEUM_BUCKET = registerItem("bucket_petroleum", (Item)new BucketItem(ModFluids.Petroleum, new FabricItemSettings().recipeRemainder(BUCKET).maxCount(1)));
 
     // 注册
     public static Item registerItem(String name, Item item) {

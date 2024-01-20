@@ -1,6 +1,7 @@
 package com.example;
 
 import com.example.enchantment.ModEnchantments;
+import com.example.fluid.ModFluids;
 import com.example.registry.ModBlocks;
 import com.example.registry.ModItemGroup;
 import com.example.registry.ModItems;
@@ -32,5 +33,7 @@ public class ExampleMod implements ModInitializer {
 		ModOreGen.generateOres();
 		ModEnchantments.registerModModEnchantments();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BALL,14400);//9个煤炭块
+		FuelRegistry.INSTANCE.add(ModItems.PETROLEUM_BUCKET,40000);
+		ModFluids.registerModFluids();
 	}
 }

@@ -39,6 +39,7 @@ public class ModItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modother"))
                     .icon(() -> new ItemStack(ModItems.COAL_BALL)).entries((displayContext, entries) -> {
                         entries.add(ModItems.COAL_BALL);
+                        entries.add(ModItems.PETROLEUM_BUCKET);
 
                     }).build());
 
