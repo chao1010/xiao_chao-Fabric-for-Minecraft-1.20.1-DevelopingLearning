@@ -29,4 +29,4 @@ Fabric for Minecraft Mod 1.20.1开发（十三）为新盔甲添加纹饰！？:
 
 Fabric for Minecraft Mod 1.20.1开发（十四）添加新附魔！？: https://www.bilibili.com/read/cv26884699
 
-Fabric for Minecraft Mod 1.20.1开发（十五）添加新流体？！: 
+Fabric for Minecraft Mod 1.20.1开发（十五）添加新流体？！: https://www.bilibili.com/read/cv29828113
