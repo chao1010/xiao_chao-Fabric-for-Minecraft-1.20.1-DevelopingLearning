@@ -40,9 +40,14 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.COAL_BALL)).entries((displayContext, entries) -> {
                         entries.add(ModItems.COAL_BALL);
                         entries.add(ModItems.PETROLEUM_BUCKET);
+                        entries.add(ModItems.EGG_BLUE_SLIME);
+                        entries.add(ModItems.EGG_RED_SLIME);
+                        entries.add(ModItems.EGG_YELLOW_SLIME);
+                        entries.add(ModItems.BLUE_SLIMEBALL);
+                        entries.add(ModItems.RED_SLIMEBALL);
+                        entries.add(ModItems.YELLOW_SLIMEBALL);
 
                     }).build());
-
     public static void registerModItemGroup(){
         ExampleMod.LOGGER.debug("Registering mod item group for"+ ExampleMod.MOD_ID);
     }

@@ -1,11 +1,9 @@
 package com.example;
 
 import com.example.enchantment.ModEnchantments;
+import com.example.entity.ModEntityType;
 import com.example.fluid.ModFluids;
-import com.example.registry.ModBlocks;
-import com.example.registry.ModItemGroup;
-import com.example.registry.ModItems;
-import com.example.registry.ModOreGen;
+import com.example.registry.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
@@ -35,5 +33,7 @@ public class ExampleMod implements ModInitializer {
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BALL,14400);//9个煤炭块
 		FuelRegistry.INSTANCE.add(ModItems.PETROLEUM_BUCKET,40000);
 		ModFluids.registerModFluids();
+		ModEntityType.registerModEntity();
+		ModBiomeTags.registerModBiomeTags();
 	}
 }

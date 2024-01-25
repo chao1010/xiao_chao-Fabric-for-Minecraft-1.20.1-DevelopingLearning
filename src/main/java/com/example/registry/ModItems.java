@@ -1,6 +1,7 @@
 package com.example.registry;
 
 import com.example.ExampleMod;
+import com.example.entity.ModEntityType;
 import com.example.fluid.ModFluids;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
@@ -37,7 +38,16 @@ public class ModItems{
     public static final Item COAL_BALL = registerItem("coal_ball",new Item(new FabricItemSettings()));
 
     //加入石油桶
-    public static final Item PETROLEUM_BUCKET = registerItem("bucket_petroleum", (Item)new BucketItem(ModFluids.Petroleum, new FabricItemSettings().recipeRemainder(BUCKET).maxCount(1)));
+    public static final Item PETROLEUM_BUCKET = registerItem("bucket_petroleum", new BucketItem(ModFluids.Petroleum, new FabricItemSettings().recipeRemainder(BUCKET).maxCount(1)));
+    //加入蓝、红、黄史莱姆刷怪蛋
+    public static final Item EGG_BLUE_SLIME = registerItem("egg_blue_slime",new SpawnEggItem(ModEntityType.BLUE_SLIME ,0xADD8E6,0x000080, new FabricItemSettings()));
+    public static final Item EGG_RED_SLIME = registerItem("egg_red_slime",new SpawnEggItem(ModEntityType.RED_SLIME ,0xADD8E6,0x000080, new FabricItemSettings()));
+    public static final Item EGG_YELLOW_SLIME = registerItem("egg_yellow_slime",new SpawnEggItem(ModEntityType.YELLOW_SLIME ,0xADD8E6,0x000080, new FabricItemSettings()));
+
+    //加入蓝、红、黄色史莱姆球
+    public static final Item BLUE_SLIMEBALL = registerItem("blue_slimeball",new Item(new FabricItemSettings()));
+    public static final Item RED_SLIMEBALL = registerItem("red_slimeball",new Item(new FabricItemSettings()));
+    public static final Item YELLOW_SLIMEBALL = registerItem("yellow_slimeball",new Item(new FabricItemSettings()));
 
     // 注册
     public static Item registerItem(String name, Item item) {

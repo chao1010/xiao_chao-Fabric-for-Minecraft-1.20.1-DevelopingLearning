@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/chao1010/xiao_chao-Fabric-for-Minecraft-1.20.1-DevelopingLearning"
 	},
 	"license": "MIT",
 	"icon": "assets/template-mod/icon.png",
