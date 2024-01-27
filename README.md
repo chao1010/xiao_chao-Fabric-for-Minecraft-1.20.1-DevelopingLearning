@@ -36,3 +36,5 @@ Fabric for Minecraft Mod 1.20.1开发（十六）加入新生物？！: https://
 Fabric for Minecraft Mod 1.20.1开发（十七）新生物的模型渲染？！: https://www.bilibili.com/read/cv30024460
 
 Fabric for Minecraft Mod 1.20.1开发（十八）为新生物添加更多细节？！: https://www.bilibili.com/read/cv30029033
+
+Fabric for Minecraft Mod 1.20.1开发（十九）添加物品提示？！: https://www.bilibili.com/read/cv30199544
