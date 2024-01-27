@@ -12,7 +12,7 @@ public class ModBiomeTags {
     public static final TagKey<Biome> ALLOWS_SURFACE_RED_SLIME_SPAWNS = ModBiomeTags.of("allows_surface_red_slime_spawns");
     public static final TagKey<Biome> ALLOWS_SURFACE_YELLOW_SLIME_SPAWNS = ModBiomeTags.of("allows_surface_yellow_slime_spawns");
 
-    private void BiomeTags() {
+    private void ModBiomeTags() {
     }
 
     private static TagKey<Biome> of(String name) {

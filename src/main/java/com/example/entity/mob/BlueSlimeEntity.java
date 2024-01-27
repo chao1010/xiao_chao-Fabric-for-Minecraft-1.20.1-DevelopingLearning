@@ -1,5 +1,6 @@
 package com.example.entity.mob;
 
+import com.example.entity.ModEntityType;
 import com.example.registry.ModBiomeTags;
 import com.google.common.annotations.VisibleForTesting;
 import net.minecraft.block.Blocks;

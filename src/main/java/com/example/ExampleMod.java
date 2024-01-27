@@ -35,5 +35,6 @@ public class ExampleMod implements ModInitializer {
 		ModFluids.registerModFluids();
 		ModEntityType.registerModEntity();
 		ModBiomeTags.registerModBiomeTags();
+
 	}
 }
