@@ -6,17 +6,13 @@ import com.example.fluid.ModFluids;
 import com.example.registry.item.ModItemTips;
 import com.example.registry.item.SilverSword;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
-import net.minecraft.world.World;
-import org.w3c.dom.Text;
 
-import java.util.List;
+import java.util.function.Supplier;
 
 import static net.minecraft.item.Items.BUCKET;
 
@@ -57,10 +53,16 @@ public class ModItems{
     public static final Item RED_SLIMEBALL = registerItem("red_slimeball",new Item(new FabricItemSettings()));
     public static final Item YELLOW_SLIMEBALL = registerItem("yellow_slimeball",new Item(new FabricItemSettings()));
 
+    //加入卷心菜和卷心菜种子
+    public static final Item CABBAGE = registerItem("cabbage",new Item(new FabricItemSettings().food(ModFood.CABBAGE)));
+    public static final Item CABBAGE_SEEDS = registerItem("cabbage_seeds",new AliasedBlockItem(ModBlocks.CABBAGE_CROP,new FabricItemSettings()));
+
     // 注册
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ExampleMod.MOD_ID, name), item);
     }
+
+
     // 打印信息
     public static void registerModItems() {
         ExampleMod.LOGGER.info("Registering Mod Items for " + ExampleMod.MOD_ID);

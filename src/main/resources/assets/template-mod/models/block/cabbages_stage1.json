@@ -1,0 +1,6 @@
+{
+  "parent": "template-mod:block/crop_cross",
+  "textures": {
+    "cross": "template-mod:block/cabbages_stage1"
+  }
+}

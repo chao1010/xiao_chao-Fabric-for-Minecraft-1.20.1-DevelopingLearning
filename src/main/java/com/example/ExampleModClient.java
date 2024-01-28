@@ -5,6 +5,7 @@ import com.example.entity.mob.BlueSlimeEntityRenderer;
 import com.example.entity.mob.RedSlimeEntityRenderer;
 import com.example.entity.mob.YellowSlimeEntityRenderer;
 import com.example.fluid.ModFluids;
+import com.example.registry.ModBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
@@ -23,6 +24,7 @@ public class ExampleModClient implements ClientModInitializer {
         ));
 
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(), ModFluids.Petroleum, ModFluids.FLOWING_Petroleum);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), ModBlocks.CABBAGE_CROP);
 
         EntityRendererRegistry.register(ModEntityType.BLUE_SLIME, BlueSlimeEntityRenderer::new);
         EntityRendererRegistry.register(ModEntityType.RED_SLIME, RedSlimeEntityRenderer::new);

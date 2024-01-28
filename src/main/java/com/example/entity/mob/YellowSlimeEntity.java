@@ -2,7 +2,6 @@ package com.example.entity.mob;
 
 import com.example.registry.ModBiomeTags;
 import com.google.common.annotations.VisibleForTesting;
-import net.minecraft.block.Blocks;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.control.MoveControl;
 import net.minecraft.entity.ai.goal.ActiveTargetGoal;

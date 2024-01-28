@@ -46,7 +46,8 @@ public class ModItemGroup {
                         entries.add(ModItems.BLUE_SLIMEBALL);
                         entries.add(ModItems.RED_SLIMEBALL);
                         entries.add(ModItems.YELLOW_SLIMEBALL);
-
+                        entries.add(ModItems.CABBAGE);
+                        entries.add(ModItems.CABBAGE_SEEDS);
                     }).build());
     public static void registerModItemGroup(){
         ExampleMod.LOGGER.debug("Registering mod item group for"+ ExampleMod.MOD_ID);
